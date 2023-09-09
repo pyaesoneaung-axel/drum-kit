@@ -10,6 +10,7 @@ let drumSet = {
 
 let drum = document.querySelector("body");
 
+// This doesn't work, don't know why yet
 // for (let oKey in drumSet) {
 //   drumSet[oKey].setAttribute("onClick", `playDrum(${oKey})`);
 // }
@@ -26,7 +27,7 @@ drum.addEventListener("keydown", function (e) {
   let key = e.key;
   let keySet = ["w", "a", "s", "d", "j", "k", "l"];
   if (keySet.includes(key)) {
-    console.log("h");
+    // console.log("h");
     playDrum(key);
   }
 });
