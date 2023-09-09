@@ -11,6 +11,10 @@ h1 {
 
 }
 
+.hide-content {
+  display: none;
+}
+
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
